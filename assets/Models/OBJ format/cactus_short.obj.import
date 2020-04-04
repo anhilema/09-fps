@@ -15,4 +15,5 @@ dest_files=[ "res://.import/cactus_short.obj-44898f3a6123fde12d98f6f92c1596d5.me
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

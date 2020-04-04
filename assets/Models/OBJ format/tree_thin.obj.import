@@ -15,4 +15,5 @@ dest_files=[ "res://.import/tree_thin.obj-b9efa9fe0b5b22727efb59df5ec04d2d.mesh"
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

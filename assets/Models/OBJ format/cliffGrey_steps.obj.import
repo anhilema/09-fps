@@ -15,4 +15,5 @@ dest_files=[ "res://.import/cliffGrey_steps.obj-e152848530cc793f8bbf64ece3799c64
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

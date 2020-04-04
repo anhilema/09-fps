@@ -15,4 +15,5 @@ dest_files=[ "res://.import/cliffBrown_half.obj-6f74b0062e36e062bb44e19064ad8d29
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true
