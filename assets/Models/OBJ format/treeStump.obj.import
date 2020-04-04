@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/treeStump.obj-a3f2b4623248a0db294634fd9b4e3b4c.mesh"
+
+[deps]
+
+files=[ "res://.import/treeStump.obj-a3f2b4623248a0db294634fd9b4e3b4c.mesh" ]
+
+source_file="res://assets/Models/OBJ format/treeStump.obj"
+dest_files=[ "res://.import/treeStump.obj-a3f2b4623248a0db294634fd9b4e3b4c.mesh", "res://.import/treeStump.obj-a3f2b4623248a0db294634fd9b4e3b4c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/fence_diagonal.obj-2c3df1aa8db1fc63e4b601835b8a4cbf.mesh"
+
+[deps]
+
+files=[ "res://.import/fence_diagonal.obj-2c3df1aa8db1fc63e4b601835b8a4cbf.mesh" ]
+
+source_file="res://assets/Models/OBJ format/fence_diagonal.obj"
+dest_files=[ "res://.import/fence_diagonal.obj-2c3df1aa8db1fc63e4b601835b8a4cbf.mesh", "res://.import/fence_diagonal.obj-2c3df1aa8db1fc63e4b601835b8a4cbf.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

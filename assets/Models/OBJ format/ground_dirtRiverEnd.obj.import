@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ground_dirtRiverEnd.obj-a3769e3b118ff3d1e27d31b31a3f6112.mesh"
+
+[deps]
+
+files=[ "res://.import/ground_dirtRiverEnd.obj-a3769e3b118ff3d1e27d31b31a3f6112.mesh" ]
+
+source_file="res://assets/Models/OBJ format/ground_dirtRiverEnd.obj"
+dest_files=[ "res://.import/ground_dirtRiverEnd.obj-a3769e3b118ff3d1e27d31b31a3f6112.mesh", "res://.import/ground_dirtRiverEnd.obj-a3769e3b118ff3d1e27d31b31a3f6112.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
