@@ -15,4 +15,5 @@ dest_files=[ "res://.import/lily_large.obj-931c279e17d3eee054f2c3c5c800f167.mesh
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

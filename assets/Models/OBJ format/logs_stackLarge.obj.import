@@ -15,4 +15,5 @@ dest_files=[ "res://.import/logs_stackLarge.obj-98c5781b45b183bf3555df4d90f5df61
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

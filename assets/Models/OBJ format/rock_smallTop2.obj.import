@@ -15,4 +15,5 @@ dest_files=[ "res://.import/rock_smallTop2.obj-8c38d76c82dee1765361e2e41742f754.
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

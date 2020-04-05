@@ -15,4 +15,5 @@ dest_files=[ "res://.import/tree_pine_tall.obj-8c85987421f122842b0f63e61dcc3cc2.
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

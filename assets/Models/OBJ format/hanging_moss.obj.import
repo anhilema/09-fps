@@ -15,4 +15,5 @@ dest_files=[ "res://.import/hanging_moss.obj-f6ce404453ce1ed657d9cf2cf247b7fa.me
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true
