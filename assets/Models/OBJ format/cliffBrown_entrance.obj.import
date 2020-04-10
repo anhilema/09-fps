@@ -15,4 +15,5 @@ dest_files=[ "res://.import/cliffBrown_entrance.obj-781dab02fddfd9faf22024733fae
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

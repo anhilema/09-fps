@@ -15,4 +15,5 @@ dest_files=[ "res://.import/treeStump_deep_side.obj-addebcafa95b1b0284d1176b77f6
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

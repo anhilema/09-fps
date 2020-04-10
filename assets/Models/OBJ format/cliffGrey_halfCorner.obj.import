@@ -15,4 +15,5 @@ dest_files=[ "res://.import/cliffGrey_halfCorner.obj-4196a4c2d0cf6a929e340e5000a
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

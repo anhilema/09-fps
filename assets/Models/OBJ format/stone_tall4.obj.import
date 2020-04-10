@@ -15,4 +15,5 @@ dest_files=[ "res://.import/stone_tall4.obj-9e14a2b75aa2ec932036e036c3301ade.mes
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

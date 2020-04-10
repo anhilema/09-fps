@@ -15,4 +15,5 @@ dest_files=[ "res://.import/tent_detailedClosed.obj-0a7e6d1807b1313e1d5c12406688
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

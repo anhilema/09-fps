@@ -15,4 +15,5 @@ dest_files=[ "res://.import/stone_statue.obj-848f90c1b5c9f589a7b72d00f2e2bda8.me
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

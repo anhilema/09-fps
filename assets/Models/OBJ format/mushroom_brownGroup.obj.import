@@ -15,4 +15,5 @@ dest_files=[ "res://.import/mushroom_brownGroup.obj-5dd30d6c8f9f6987e3b86c3f87d4
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

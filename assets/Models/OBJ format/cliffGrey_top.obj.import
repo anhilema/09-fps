@@ -15,4 +15,5 @@ dest_files=[ "res://.import/cliffGrey_top.obj-800efd5cb77c85b696aa4a8b8bafc6d9.m
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true
