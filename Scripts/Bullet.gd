@@ -22,3 +22,6 @@ func _on_Timer_timeout():
 func _on_Bullet_body_entered(body):
 	if body is StaticBody:
 		queue_free()
+	if body.get_parent().name == "items":
+		body.queue_free()
+		queue_free()

@@ -1,15 +1,20 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Game.gd" type="Script" id=1]
 [ext_resource path="res://Player.gd" type="Script" id=2]
 [ext_resource path="res://assets/shotgun.obj" type="PackedScene" id=3]
 [ext_resource path="res://Global.gd" type="Script" id=4]
+[ext_resource path="res://Scenes/cliffGrey_top.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Scenes/tree.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Scenes/log_large.tscn" type="PackedScene" id=7]
+[ext_resource path="res://StaticBody.gd" type="Script" id=8]
+[ext_resource path="res://Scenes/sphere_tank.tscn" type="PackedScene" id=9]
 
 [sub_resource type="PlaneMesh" id=1]
-size = Vector2( 30, 30 )
+size = Vector2( 200, 200 )
 
 [sub_resource type="ConvexPolygonShape" id=2]
-points = PoolVector3Array( 15, 0, 15, -15, 0, 15, 15, 0, -15, -15, 0, -15 )
+points = PoolVector3Array( 100, 0, 100, -100, 0, 100, 100, 0, -100, -100, 0, -100 )
 
 [sub_resource type="CapsuleShape" id=3]
 radius = 0.5
@@ -17,14 +22,22 @@ radius = 0.5
 [sub_resource type="BoxShape" id=4]
 extents = Vector3( 0.4, 0.1, 0.4 )
 
+[sub_resource type="BoxShape" id=5]
+extents = Vector3( 0.405026, 0.318637, 0.177261 )
+
+[sub_resource type="BoxShape" id=6]
+extents = Vector3( 1.57427, 1.16163, 0.73178 )
+
 [node name="Game" type="Spatial"]
 script = ExtResource( 1 )
 
 [node name="Bullets" type="Spatial" parent="."]
 
 [node name="Ground" type="StaticBody" parent="."]
+editor/display_folded = true
 
 [node name="Ground" type="MeshInstance" parent="Ground"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0261379, 0.0565966, -0.00244141 )
 mesh = SubResource( 1 )
 material/0 = null
 
@@ -32,10 +45,11 @@ material/0 = null
 shape = SubResource( 2 )
 
 [node name="Player" type="KinematicBody" parent="."]
+editor/display_folded = true
 script = ExtResource( 2 )
 
 [node name="Body" type="CollisionShape" parent="Player"]
-transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 2.1, 0 )
+transform = Transform( 1, 0, 0, 0, -4.37114e-008, -1, 0, 1, -4.37114e-008, 0, 2.1, 0 )
 shape = SubResource( 3 )
 
 [node name="feet" type="CollisionShape" parent="Player"]
@@ -49,12 +63,13 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8, 0 )
 current = true
 
 [node name="shotgun" parent="Player/Pivot" instance=ExtResource( 3 )]
-transform = Transform( -8, 0, -6.99382e-07, 0, 8, 0, 6.99382e-07, 0, -8, 0.2, -0.3, -0.4 )
+transform = Transform( -8, 0, -6.99382e-007, 0, 8, 0, 6.99382e-007, 0, -8, 0.2, -0.3, -0.4 )
 
 [node name="muzzle" type="Position3D" parent="Player/Pivot"]
-transform = Transform( -1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 0.2, -0.252, -0.707 )
+transform = Transform( -1, 0, 8.74228e-008, 0, 1, 0, -8.74228e-008, 0, -1, 0.2, -0.252, -0.707 )
 
 [node name="HUD" type="Node2D" parent="."]
+editor/display_folded = true
 
 [node name="ColorRect" type="ColorRect" parent="HUD"]
 margin_right = 46.0
@@ -68,3 +83,56 @@ text = "Score:"
 
 [node name="Global" type="Spatial" parent="."]
 script = ExtResource( 4 )
+
+[node name="cliffs" type="Spatial" parent="."]
+editor/display_folded = true
+
+[node name="cliffGrey_top" parent="cliffs" instance=ExtResource( 5 )]
+transform = Transform( 3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0, 100 )
+
+[node name="cliffGrey_top4" parent="cliffs" instance=ExtResource( 5 )]
+transform = Transform( 3, 0, 0, 0, 3, 0, 0, 0, 3, -30, 0, 100 )
+
+[node name="cliffGrey_top5" parent="cliffs" instance=ExtResource( 5 )]
+transform = Transform( 3, 0, 0, 0, 3, 0, 0, 0, 3, -60, 0, 100 )
+
+[node name="cliffGrey_top6" parent="cliffs" instance=ExtResource( 5 )]
+transform = Transform( 3, 0, 0, 0, 3, 0, 0, 0, 3, -90, 0, 100 )
+
+[node name="cliffGrey_top2" parent="cliffs" instance=ExtResource( 5 )]
+transform = Transform( 3, 0, 0, 0, 3, 0, 0, 0, 3, 30, 0, 100 )
+
+[node name="cliffGrey_top3" parent="cliffs" instance=ExtResource( 5 )]
+transform = Transform( 3, 0, 0, 0, 3, 0, 0, 0, 3, 60, 0, 100 )
+
+[node name="terrain" type="Spatial" parent="."]
+editor/display_folded = true
+
+[node name="tree_pineSmall_round1" parent="terrain" instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.82869, 0, -5.18273 )
+
+[node name="items" type="Spatial" parent="."]
+editor/display_folded = true
+
+[node name="RigidBody" type="RigidBody" parent="items"]
+editor/display_folded = true
+
+[node name="log_large" parent="items/RigidBody" instance=ExtResource( 7 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 24.4755 )
+
+[node name="CollisionShape" type="CollisionShape" parent="items/RigidBody"]
+shape = SubResource( 5 )
+
+[node name="enemies" type="Spatial" parent="."]
+
+[node name="tank" type="KinematicBody" parent="enemies"]
+transform = Transform( -1, 0, -8.74228e-008, 0, 1, 0, 8.74228e-008, 0, -1, 10, 1.5, 0 )
+script = ExtResource( 8 )
+
+[node name="sphere_tank" parent="enemies/tank" instance=ExtResource( 9 )]
+
+[node name="CollisionShape" type="CollisionShape" parent="enemies/tank"]
+shape = SubResource( 6 )
+
+[node name="Scanner" type="RayCast" parent="enemies/tank"]
+cast_to = Vector3( 30, 0, 0 )

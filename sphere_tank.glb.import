@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/cliffGrey_top.obj-800efd5cb77c85b696aa4a8b8bafc6d9.scn"
+path="res://.import/sphere_tank.glb-67139aec74027e167d1b85527a04146c.scn"
 
 [deps]
 
-source_file="res://assets/Models/OBJ format/cliffGrey_top.obj"
-dest_files=[ "res://.import/cliffGrey_top.obj-800efd5cb77c85b696aa4a8b8bafc6d9.scn" ]
+source_file="res://sphere_tank.glb"
+dest_files=[ "res://.import/sphere_tank.glb-67139aec74027e167d1b85527a04146c.scn" ]
 
 [params]
 
