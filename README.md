@@ -1,2 +1,3 @@
-# Project-Template-Godot
-A default Godot project template for MSCH-C220
+# FPS
+an fps project for my C220 class
+This is all up to the April 10th video, waiting for the addendum
