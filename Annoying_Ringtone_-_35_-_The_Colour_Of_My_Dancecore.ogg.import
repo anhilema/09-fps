@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Annoying_Ringtone_-_35_-_The_Colour_Of_My_Dancecore.ogg-8cf3132b765eaa2bb6c3f1ee824a4579.oggstr"
+
+[deps]
+
+source_file="res://Annoying_Ringtone_-_35_-_The_Colour_Of_My_Dancecore.ogg"
+dest_files=[ "res://.import/Annoying_Ringtone_-_35_-_The_Colour_Of_My_Dancecore.ogg-8cf3132b765eaa2bb6c3f1ee824a4579.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
